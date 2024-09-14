@@ -1,5 +1,3 @@
-#This is EC2 Instance key 
-Key.pem 
 
 #Fully automated bashscript 
 setup.sh
