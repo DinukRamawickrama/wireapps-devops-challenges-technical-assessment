@@ -1,0 +1,14 @@
+services:
+  web:
+    image: web-app
+    ports:
+      - "3000:3000"
+    environment:
+      - PORT=3000
+
+  api:
+    image: api-app
+    ports:
+      - "4000:4000"
+    environment:
+      - PORT=4000
